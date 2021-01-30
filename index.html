@@ -181,13 +181,11 @@
             let flyingTo = document.getElementById('flyingTo').value
             let flyingFrom = document.getElementById('flyingFrom').value
 
-            if (flyingTo === '') {
+            if (flyingTo == '') {
                 alert('Enter place name ')
-                document.getElementById('booking-section').style.display = 'block'
             }
-            else if (flyingFrom === '') {
-                alert('Enter place name')
-                document.getElementById('booking-section').style.display = 'block'
+            else if (flyingFrom == '') {
+                alert('Enter place name')                
             }
             else {
                 document.getElementById('booking-section').style.display = 'none'
